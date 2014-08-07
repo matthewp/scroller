@@ -40,6 +40,7 @@ if(steal.isRhino) return;
 	} else if (!core.effect) {
 		core.effect = {};
 	}
+  var core = global.core;
 
 	core.effect.Animate = {
 
@@ -237,7 +238,7 @@ if(steal.isRhino) return;
 			return id;
 		}
 	};
-})(this);
+})(window);
 
 
 /*

@@ -38,6 +38,7 @@
 	} else if (!core.effect) {
 		core.effect = {};
 	}
+  var core = global.core;
 
 	core.effect.Animate = {
 
@@ -235,5 +236,5 @@
 			return id;
 		}
 	};
-})(this);
+})(window);
 
